@@ -25,9 +25,9 @@ medical-image-analysis/
 │   └── (notebooks added per week)
 │
 └── notes/
-    ├── week_01_introduction.md            ← Notes: Introduction & Overview
-    ├── week_02_preprocessing.md           ← Notes: Preprocessing and Data Handling
-    └── week_03_decision_support.md        ← Notes: Clinical Decision Support Systems
+    ├── week_1_introduction.md            ← Notes: Introduction & Overview
+    ├── week_2_preprocessing.md           ← Notes: Preprocessing and Data Handling
+    └── week_3_decision_support.md        ← Notes: Clinical Decision Support Systems
 ```
 
 ---
@@ -36,9 +36,9 @@ medical-image-analysis/
 
 | Week | Topic | Notes | Key Paper |
 |------|-------|-------|-----------|
-| 01 | Introduction: Modalities, Clinical Challenges, AI in Medical Imaging | [📝 Notes](notes/week_01_introduction.md) | — |
-| 02 | Preprocessing and Data Handling | [📝 Notes](notes/week_02_preprocessing.md) | — |
-| 03 | Clinical Decision Support Systems | [📝 Notes](notes/week_03_decision_support.md) | Arbabshirani et al. (2018) — ICH triage |
+| 01 | Introduction: Modalities, Clinical Challenges, AI in Medical Imaging | [📝 Notes](notes/week_1_introduction.md) | — |
+| 02 | Preprocessing and Data Handling | [📝 Notes](notes/week_2_preprocessing.md) | — |
+| 03 | Clinical Decision Support Systems | [📝 Notes](notes/week_3_decision_support.md) | Arbabshirani et al. (2018) — ICH triage |
 
 ---
 
