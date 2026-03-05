@@ -19,22 +19,26 @@ A core theme throughout the course is the gap between research performance and r
 ```
 medical-image-analysis/
 │
-├── README.md                        ← You are here
+├── README.md                              ← You are here
 │
-├── lecture_notebooks/               ← Jupyter notebooks used during lectures
+├── lecture_notebooks/                     ← Jupyter notebooks used during lectures
 │   └── (notebooks added per week)
 │
 └── notes/
-    └── week_01_introduction.md      ← Notes: Introduction & Overview
+    ├── week_01_introduction.md            ← Notes: Introduction & Overview
+    ├── week_02_preprocessing.md           ← Notes: Preprocessing and Data Handling
+    └── week_03_decision_support.md        ← Notes: Clinical Decision Support Systems
 ```
 
 ---
 
 ## 📅 Weekly Overview
 
-| Week | Topic | Notes | Notebooks |
+| Week | Topic | Notes | Key Paper |
 |------|-------|-------|-----------|
 | 01 | Introduction: Modalities, Clinical Challenges, AI in Medical Imaging | [📝 Notes](notes/week_01_introduction.md) | — |
+| 02 | Preprocessing and Data Handling | [📝 Notes](notes/week_02_preprocessing.md) | — |
+| 03 | Clinical Decision Support Systems | [📝 Notes](notes/week_03_decision_support.md) | Arbabshirani et al. (2018) — ICH triage |
 
 ---
 
@@ -48,7 +52,21 @@ The course is structured around the following themes:
 - **ML Tasks for Medical Imaging** — classification, segmentation, object detection, image enhancement
 - **Real-World ML Projects** — case studies including teledermatology (PASSION project) and hand eczema severity assessment
 - **Challenges & Pitfalls** — data bias, distribution shift, DICOM formats, regulatory and workflow constraints
+- **Preprocessing & Data Handling** — PACS, DICOM/NIfTI formats, windowing, cropping, patching, resampling, registration, data quality, artefacts, shortcut learning
+- **Clinical Decision Support Systems (CDSS)** — AI in medical imaging workflows, CDSS design patterns, integration, evaluation, monitoring, data drift
 - **Reading Research Papers** — how to find, evaluate, and read ML papers effectively
+
+---
+
+## 📄 Key Papers
+
+| Paper | Topic | Week |
+|-------|-------|------|
+| Arbabshirani et al. (2018). *Advanced machine learning in action: identification of intracranial hemorrhage on CT scans with clinical workflow integration.* NPJ Digital Medicine. | ICH detection & worklist triage — end-to-end clinical deployment case study | 03 |
+| Sutton et al. (2020). *An overview of clinical decision support systems: benefits, risks, and strategies for success.* NPJ Digital Medicine. | CDSS overview | 03 |
+| Tejani et al. (2024). *Integrating and adopting AI in the radiology workflow.* Radiology. | AI workflow integration & IHE standards | 03 |
+| Bernstein et al. (2023). *Can incorrect AI results impact radiologists?* European Radiology. | Human behaviour effects of CDSS | 03 |
+| Kwong et al. (2022). *The silent trial — the bridge between bench-to-bedside clinical AI applications.* Frontiers in Digital Health. | Silent trials methodology | 03 |
 
 ---
 
